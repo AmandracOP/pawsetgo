@@ -1,0 +1,63 @@
+{
+  "expo": {
+    "name": "pawpaw",
+    "slug": "pawpaw",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#707BFB"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.pawpaw.pawpaw"
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#707BFB"
+      },
+      "package": "com.pawpaw.pawpaw",
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "androidNavigationBar": {
+      "barStyle": "dark-content",
+      "backgroundColor": "#FFFFFF"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "cameraPermission": "The app need accesses your camera to take photo of your pet."
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/not-icon.png",
+          "color": "#ffffff"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "305ce8f4-1e69-44de-a337-e0ec1c53ae4e"
+      }
+    }
+  }
+}
