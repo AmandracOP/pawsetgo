@@ -1,6 +1,5 @@
 import { StyleSheet, Text, View, StatusBar as Sb } from "react-native";
 import React, { useEffect, useState, useCallback } from "react";
-import AppLoading from "expo-app-loading";
 import { StatusBar } from "expo-status-bar";
 import { SafeAreaProvider } from "react-native-safe-area-context";
 import StartingScreensNavigations from "./StartingScreensNavigations";
